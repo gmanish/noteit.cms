@@ -1,0 +1,13 @@
+/administrator/
+/cache/
+/components/
+/includes/
+/language/
+/libraries/
+/logs/
+/media/
+/modules/
+/plugins/
+/tmp/
+/xmlrpc/
+/*.DS_Store
