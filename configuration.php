@@ -50,7 +50,7 @@ class JConfig {
 	var $lifetime = '15';
 	var $session_handler = 'database';
 	var $password = 'pass123';
-	var $sitename = 'Joomla 1.5';
+	var $sitename = 'NoteIt';
 	var $MetaDesc = 'Joomla! - the dynamic portal engine and content management system';
 	var $MetaKeys = 'joomla, Joomla';
 	var $offline_message = 'This site is down for maintenance. Please check back again soon.';

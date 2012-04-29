@@ -23,6 +23,10 @@ if(JRequest::getCmd('task') != 'edit') $Edit = false; else $Edit = true;
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
 
 <head>
+<?php
+$app = JFactory::getApplication();
+$this->setTitle( $this->getTitle() . ' - ' . $app->getCfg( 'sitename' ) );
+?>
 <jdoc:include type="head" />
 
 <script type="text/javascript" src="<?php echo $path ?>/scripts/jquery.js"></script>
@@ -48,7 +52,7 @@ if(JRequest::getCmd('task') != 'edit') $Edit = false; else $Edit = true;
 	<div class="main">
         <!--header-->
         <div class="header">
-            	<h1 id="logo"><a href="<?php echo $_SERVER['PHP_SELF']?>" title=""><img  title="" src="<?php echo $path ?>/images/logo.gif"   alt=""  /></a></h1>
+            	<h1 id="logo"><a href="<?php echo $_SERVER['PHP_SELF']?>" title=""><img  title="" src="<?php echo $path ?>/images/noteit_logo.gif"   alt=""  /></a></h1>
                 	<jdoc:include type="modules" name="user3" style="topmenu" />
         </div>
         

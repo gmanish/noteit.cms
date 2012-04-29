@@ -802,25 +802,25 @@ ul.tabs li a {
 	height:37px;
 	text-align:center;
 	display:inline-block;
-	font-size:24px;
+	font-size:20px; /* MG */
 	padding:19px 0 0 0;
 	text-decoration:none
 }
 ul.tabs li a:hover {
 	background:url(../images/tab_act.gif) no-repeat left top;
 	color:#f3ca02 !important;
-	font-size:24px !important;
+	font-size:20px !important; /* MG */
 
 }
 .active a { /*--Makes sure that the active tab does not listen to the hover properties--*/
 	background:url(../images/tab_act.gif) no-repeat left top !important;
 	color:#f3ca02 !important;
-	font-size:24px !important;
+	font-size:20px !important; /* MG */
 }
 .active a:hover { /*--Makes sure that the active tab does not listen to the hover properties--*/
 	background:url(../images/tab_act.gif) no-repeat left top !important;
 	color:#f3ca02 !important;
-	font-size:24px !important;
+	font-size:20px !important; /* MG */
 	line-height:18px !important
 }
 
