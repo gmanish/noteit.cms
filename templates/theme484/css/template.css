@@ -50,12 +50,7 @@ h6 {font:bold 12px Arial, Helvetica, sans-serif;}
 #container ul li p{ line-height:16px;}
 #container ul li span{ color:#000; font-size:12px;}
 
-
-
-
 .top-line { background:url(../images/border3.gif) 0 0 repeat-x; padding:26px 0 0 0;}
-
-
 
 .img-indent{ float:left; margin:0 15px 0 0 !important;}
 .text3{ color:#21A8D0; font-size:13px; line-height:19px;}
@@ -716,7 +711,7 @@ input.checkbox { /* checkbox */
 
 
 .s1{ width:270px; float:left; display:inline; margin-right:34px;  padding-right:16px}
-.s1 h3 {text-transform:uppercase; margin-bottom:20px;}
+.s1 h3 {margin-bottom:20px;}
 .s1 p, .s2 p, .s3 p {margin-bottom:10px;}
 .s2{ width:258px; float:left; display:inline; margin-right:34px; padding-right:16px}
 .s3{  width:264px; float:left; display:inline; }
