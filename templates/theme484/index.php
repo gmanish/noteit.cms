@@ -101,7 +101,8 @@ $this->setTitle( $this->getTitle() . ' - ' . $app->getCfg( 'sitename' ) );
     	 <!--footer-->
    		 <div class="footer">
 		 <jdoc:include type="modules" name="footer" />
-		 <?php echo JText::_('Powered by') ?> <a href="#">Joomla!</a> &nbsp;&nbsp;&nbsp;<!--{%FOOTER_LINK} --></div>
+		 <?php echo JText::_('(c) Copyright 2012 NoteIt&trade;. All rights reserved.') ?>
+                 </div>
     </div>
 <script type="text/javascript"> Cufon.now(); </script>
 </body>
