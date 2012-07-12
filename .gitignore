@@ -11,3 +11,4 @@
 /tmp/
 /xmlrpc/
 /*.DS_Store
+/configuration.php
