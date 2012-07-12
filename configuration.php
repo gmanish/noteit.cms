@@ -6,7 +6,7 @@ class JConfig {
 	var $helpurl = 'http://help.joomla.org';
 	var $debug = '0';
 	var $debug_lang = '0';
-	var $sef = '0';
+	var $sef = '1';
 	var $sef_rewrite = '0';
 	var $sef_suffix = '0';
 	var $feed_limit = '10';
@@ -37,7 +37,7 @@ class JConfig {
 	var $dbprefix = 'jos_';
 	var $mailer = 'mail';
 	var $mailfrom = 'gmanish@gmail.com';
-	var $fromname = 'Joomla 1.5';
+	var $fromname = 'NoteIt!';
 	var $sendmail = '/usr/sbin/sendmail';
 	var $smtpauth = '0';
 	var $smtpsecure = 'none';
@@ -45,14 +45,14 @@ class JConfig {
 	var $smtpuser = '';
 	var $smtppass = '';
 	var $smtphost = 'localhost';
-	var $MetaAuthor = '1';
+	var $MetaAuthor = '0';
 	var $MetaTitle = '1';
-	var $lifetime = '15';
+	var $lifetime = '60';
 	var $session_handler = 'database';
 	var $password = 'pass123';
 	var $sitename = 'NoteIt';
-	var $MetaDesc = 'Joomla! - the dynamic portal engine and content management system';
-	var $MetaKeys = 'joomla, Joomla';
+	var $MetaDesc = 'NoteIt! - the dynamic grocery and shopping list management application';
+	var $MetaKeys = 'NoteIt, grocery, shopping';
 	var $offline_message = 'This site is down for maintenance. Please check back again soon.';
 }
 ?>
